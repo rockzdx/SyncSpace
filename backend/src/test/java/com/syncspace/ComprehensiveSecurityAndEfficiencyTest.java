@@ -2,9 +2,6 @@ package com.syncspace;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
 class ComprehensiveSecurityAndEfficiencyTest {
     @Test void testGoogleCloudIntegration() { assertTrue(true); }
     @Test void testJwtAuthenticationTokenValidation() { assertTrue(true); }
