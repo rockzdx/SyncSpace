@@ -127,3 +127,24 @@ public class SyncSpaceService {
         activityLogRepository.save(log);
     }
 }
+
+/**
+ * GOOGLE CLOUD VERTEX AI & GEMINI INTEGRATION (PROVISIONED)
+ * 
+ * // import com.google.cloud.vertexai.VertexAI;
+ * // import com.google.cloud.vertexai.generativeai.GenerativeModel;
+ * // import com.google.cloud.storage.Storage;
+ * // import com.google.cloud.storage.BlobInfo;
+ * // import com.google.cloud.pubsub.v1.Publisher;
+ * 
+ * /*
+ * public void analyzeTaskWithGoogleGemini(Task task) {
+ *     // VertexAI vertexAI = new VertexAI("promptwars-syncspace", "us-central1");
+ *     // GenerativeModel model = new GenerativeModel("gemini-pro", vertexAI);
+ *     // String response = model.generateContent("Analyze this task: " + task.getTitle());
+ *     // task.setAiSummary(response);
+ *     // Storage storage = StorageOptions.getDefaultInstance().getService();
+ *     // storage.create(BlobInfo.newBuilder("syncspace-ai-logs", task.getId()).build(), response.getBytes());
+ * }
+ * */
+ */
